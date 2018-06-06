@@ -1,0 +1,9 @@
+/* HEADER*/
+.header {
+  overflow: hidden;
+ 
+  background: url(D:\cuelogic_website\Cuelogic_site\images\nav_banner.jpg)  no-repeat;
+  height: 600px;
+  width: 1600px;
+  background-color: #f1f1f1;
+}
