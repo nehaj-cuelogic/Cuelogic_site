@@ -21,69 +21,71 @@ table{
 
 }
 /*----------------header---------------*/
-.container
-{
-	width: 100%;
-	overflow:hidden;
-}
 
-.myClass
+
+.container
 {
 	width: 1170px;
 	margin:0  auto;
 	overflow: hidden;
 
 }
-
-.logo
-{
-	padding: 15px 0;
-    position: fixed;
-    z-index: 10;
-    display: block;
+header
+{   width: 100%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	z-index: 678;
 }
 
-.navbar
+header .logo
+{
+	
+	padding: 15px 0;
+    display: block;
+    float:left;
+}
+
+header .navbar
 {
     padding: 10px 0;
-    top: 0;
-    right: 0;
-    left: 0;
-    position: fixed;
-    z-index: 10;
-    display: block;
+    margin:0px;
+    display:block;
+    float: right;
+    
 }
-.navbar ul li {
+header .navbar ul li {
 	
-	color: #ffff;
-	float: left;
+	
 	margin-right: 25px;
 	margin-top: 20px;
-}
-
-ul
-{
 	float: right;
-	margin-right: 130px;
+}
+
+header .navbar ul li a {
+	
+	color: #ffff;
+	text-decoration: none;
 }
 
 
+/*----banner-----*/
 
-.banner {
+
+.banner
+ {
+
+	width: 100%;
     overflow: hidden;
     background-image: url(../images/nav_banner.jpg); 
  	background-size: cover;
  	height: 600px;
     position: relative;
-    display: block;  
+    display: block; 
+    margin-bottom: 40px; 
 }
 
-/*.banner_inner
-{
-	width: 500px;
-	overflow: hidden;
-	
-}*/
+
 
 .banner h2
 {
@@ -106,26 +108,30 @@ ul
 
 }
 
-.head_section
+/*----------section--------------*/
+
+.offer_heading
 {
 	color: #0072bc;
 	text-align: center;
-	padding-top: 35px;
-	font-size: 35px;
+	padding: 0px;
+    font-size: 40px;
 	font-weight: bold;
-	margin-bottom: 50px;
+	font-family: 'Lato';
+
+	
 }
 
 
  .offer
  {
- 	padding-top: 60px;
+ 	text-align: center;
  }
 
  .offer ul
  {
  	float: right;
- 	margin: 0px;
+ 	margin-top:40px;
  	padding: 0px;
  }
 
@@ -147,16 +153,242 @@ ul
 .offer ul li h3
 {
 	font-weight: bold;
-	text-align: center;
 	color: #0072bc;
 	font-size: 22px;
-	margin: 0px;
+	margin:15px 0px;
 	padding: 0px;
 }
 
 .offer ul li p
 {
-	text-align: center;
+	
 	color: 3f3e3e;
 
+
+}
+/*section2*/
+
+.offer_second
+ {
+ 	text-align: center;
+ }
+
+ .offer_second ul
+ {
+ 	float: right;
+ 	margin-top:40px;
+ 	padding: 0px;
+ }
+
+ .offer_second ul li
+ {
+ 	float: left;
+ 	width: 550px;
+ 	padding-right: 25px;
+ }
+ .offer_second ul li:last-child
+{
+    padding-right: 0;   
+}
+.img
+{
+ background-position: center center;
+}
+
+.offer_second ul li h3
+{
+	font-weight: bold;
+	color: #0072bc;
+	font-size: 22px;
+	margin:15px 0px;
+	padding: 0px;
+}
+
+.offer_second ul li p
+{
+	
+	color: 3f3e3e;
+
+
+}
+
+.our_experience
+{
+	color: #151515;
+	text-align: center;
+	padding: 0px;
+    font-size: 35px;
+	font-weight: bold;
+	font-family: 'Lato';
+	
+}
+
+.wrapper
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+.wrapper ul
+{
+	margin-top: 70px;
+	padding: 0px;
+}
+
+.wrapper ul li
+{
+	width:257px;
+	float: left;
+	color: #ffff;
+	text-align: left;
+	padding: 50px 40px;
+	height: 160px;
+}
+.wrapper ul li p
+{
+	width: 210px;
+}
+
+
+.iot
+{
+ 	background: linear-gradient(-90deg, #4d4de5, #5a5aed);
+}
+.travel
+{
+ 	background: linear-gradient(-90deg, #4e6bff, #6d85fd);
+}
+.marketing
+{
+ 	background: linear-gradient(-90deg, #3f8fff, #589cfc);
+}
+.sales
+{
+ 	background: linear-gradient(-90deg, #33aeff, #33aeff);
+}
+
+.case_study
+{
+    text-decoration: none;
+    color: #333333;
+    background-color: #ffff;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+.approach_bg
+ {
+
+	width: 100%;
+    overflow: hidden;
+    background-image: url(../images/background.jpg); 
+ 	background-size: cover;
+    display: block; 
+    height: 1093px;
+    margin-bottom: 40px;
+    
+}
+.analysis
+{
+	float: left; 
+}
+
+.analysis ul
+{
+	
+	border-left: 2px solid #6e849c;
+    display: block;
+    margin: 50px 70px;
+    padding-right: 0px;
+    width: 300px;
+   -webkit-padding-start: 0px;
+   float:left;
+  
+}
+
+.analysis ul li
+{
+
+	position: relative;
+	left: -7px;
+	margin-bottom:40px;
+	font-size: 19px;
+	font-family: 'Lato';
+
+
+
+
+}
+.analysis ul li:before
+{
+	position: absolute;
+	width: 10px;
+	height:10px;
+	background-color:#6e849c;
+	border-radius: 500%;
+	content: "";
+
+}
+
+.analysis ul li p
+{
+	margin: 0px;
+	font-size: 15px;
+}
+
+.data
+{
+	float: left;
+}
+
+.data ul
+{
+
+	border-left: 2px solid #6e849c;
+    display: block;
+    margin: 50px 70px;
+    padding-right: 0px;
+    width: 300px;
+   -webkit-padding-start: 0px;
+  
+}
+.data ul li
+{
+
+	position: relative;
+	left: -7px;
+	margin-bottom:40px;
+	font-size: 19px;
+	font-family: 'Lato';
+
+}
+.data ul li:before
+{
+	position: absolute;
+	width: 10px;
+	height:10px;
+	background-color:#6e849c;
+	border-radius: 500%;
+	content: "";
+
+}
+.visualization
+{
+	float: right;
+	text-align: center;
+	margin-right: 60px;
+}
+.visualization ul 
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+.visualization li
+{
+	font-size: 19px;
 }
