@@ -292,9 +292,11 @@ header .navbar ul li a {
     margin-bottom: 40px;
     
 }
+
 .analysis
 {
 	float: left; 
+	margin: 50px 70px;
 }
 
 .analysis ul
@@ -302,7 +304,7 @@ header .navbar ul li a {
 	
 	border-left: 2px solid #6e849c;
     display: block;
-    margin: 50px 70px;
+    
     padding-right: 0px;
     width: 300px;
    -webkit-padding-start: 0px;
@@ -339,10 +341,16 @@ header .navbar ul li a {
 	margin: 0px;
 	font-size: 15px;
 }
-
+.analysis h2
+{
+	margin: 0px;
+	padding-bottom: 30px;
+	
+}
 .data
 {
 	float: left;
+	margin: 50px 70px;
 }
 
 .data ul
@@ -350,7 +358,6 @@ header .navbar ul li a {
 
 	border-left: 2px solid #6e849c;
     display: block;
-    margin: 50px 70px;
     padding-right: 0px;
     width: 300px;
    -webkit-padding-start: 0px;
@@ -376,6 +383,12 @@ header .navbar ul li a {
 	content: "";
 
 }
+.data h2
+{
+	margin: 0px;
+	padding-bottom: 30px;
+}
+
 .visualization
 {
 	float: right;
@@ -391,4 +404,10 @@ header .navbar ul li a {
 .visualization li
 {
 	font-size: 19px;
+}
+
+.visualization h2
+{ 
+	margin: 0px;
+	padding-bottom: 30px;
 }
