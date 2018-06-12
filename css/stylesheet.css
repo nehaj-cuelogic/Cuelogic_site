@@ -141,6 +141,7 @@ header .navbar ul li a {
  	width: 355px;
  	padding-right: 35px;
  }
+
  .offer ul li:last-child
 {
     padding-right: 0;   
@@ -289,7 +290,7 @@ header .navbar ul li a {
  	background-size: cover;
     display: block; 
     height: 1093px;
-    margin-bottom: 40px;
+    
     
 }
 
@@ -320,11 +321,12 @@ header .navbar ul li a {
 	margin-bottom:40px;
 	font-size: 19px;
 	font-family: 'Lato';
-
-
-
+	padding-left: 25px;
+	
 
 }
+
+
 .analysis ul li:before
 {
 	position: absolute;
@@ -333,6 +335,8 @@ header .navbar ul li a {
 	background-color:#6e849c;
 	border-radius: 500%;
 	content: "";
+	top: 0px;
+	left: 0px;
 
 }
 
@@ -341,12 +345,16 @@ header .navbar ul li a {
 	margin: 0px;
 	font-size: 15px;
 }
+
+
 .analysis h2
 {
 	margin: 0px;
 	padding-bottom: 30px;
 	
 }
+
+
 .data
 {
 	float: left;
@@ -371,6 +379,7 @@ header .navbar ul li a {
 	margin-bottom:40px;
 	font-size: 19px;
 	font-family: 'Lato';
+	padding-left: 25px;
 
 }
 .data ul li:before
@@ -381,6 +390,8 @@ header .navbar ul li a {
 	background-color:#6e849c;
 	border-radius: 500%;
 	content: "";
+	top: 0px;
+	left: 0px;
 
 }
 .data h2
@@ -411,3 +422,37 @@ header .navbar ul li a {
 	margin: 0px;
 	padding-bottom: 30px;
 }
+
+.container-fluid
+{
+	width: 100%;
+	background-color: #4d4de5;
+	
+}
+.container-fluid ul
+{
+	
+	text-align: center;
+	-webkit-padding-start: 0px;
+	 margin: 35px 50px;
+
+}
+
+.container-fluid ul li
+{
+	float: left;
+	width: 200px;
+	text-align: center;
+}
+
+
+
+.container-fluid ul li p
+{
+	
+	color: #ffff;
+	font-size: 18px;
+	width: 170px;
+	margin: 0px;
+}
+
