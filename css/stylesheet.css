@@ -130,26 +130,30 @@ header .navbar ul li a {
 
  .offer ul
  {
- 	float: right;
+ 	
  	margin-top:40px;
  	padding: 0px;
+ 	overflow: hidden;
+ 	text-align: center;
+
  }
 
  .offer ul li
  {
- 	float: left;
- 	width: 355px;
+ 	display: inline-block;
+ 	width: 33%;
  	padding-right: 35px;
+ 	box-sizing: border-box;
+ 	vertical-align: top;
+ 	margin-bottom: 30px;
+
  }
 
  .offer ul li:last-child
 {
     padding-right: 0;   
 }
-.img
-{
- background-position: center center;
-}
+
 
 .offer ul li h3
 {
@@ -163,55 +167,12 @@ header .navbar ul li a {
 .offer ul li p
 {
 	
-	color: 3f3e3e;
+	color: #3f3e3e;
 
 
 }
-/*section2*/
 
-.offer_second
- {
- 	text-align: center;
- }
-
- .offer_second ul
- {
- 	float: right;
- 	margin-top:40px;
- 	padding: 0px;
- }
-
- .offer_second ul li
- {
- 	float: left;
- 	width: 550px;
- 	padding-right: 25px;
- }
- .offer_second ul li:last-child
-{
-    padding-right: 0;   
-}
-.img
-{
- background-position: center center;
-}
-
-.offer_second ul li h3
-{
-	font-weight: bold;
-	color: #0072bc;
-	font-size: 22px;
-	margin:15px 0px;
-	padding: 0px;
-}
-
-.offer_second ul li p
-{
-	
-	color: 3f3e3e;
-
-
-}
+/* section2*/
 
 .our_experience
 {
@@ -232,18 +193,21 @@ header .navbar ul li a {
 
 .wrapper ul
 {
-	margin-top: 70px;
+	margin: 46px 0px;
 	padding: 0px;
+	clear: both;
+	width: 100%
 }
 
 .wrapper ul li
 {
-	width:257px;
+	width: 25%;
 	float: left;
 	color: #ffff;
 	text-align: left;
 	padding: 50px 40px;
-	height: 160px;
+	overflow: hidden;
+	box-sizing: border-box;
 }
 .wrapper ul li p
 {
@@ -293,27 +257,31 @@ header .navbar ul li a {
     
     
 }
-
 .analysis
 {
-	float: left; 
-	margin: 50px 70px;
+	width: 25%;
+	overflow: hidden;
 }
 
-.analysis ul
+
+
+.infographics
 {
-	
+	float: left; 
+	margin: 50px 0px 50px 70px;
+}
+.infographics ul
+{
+	width: 320px;
 	border-left: 2px solid #6e849c;
-    display: block;
     
-    padding-right: 0px;
-    width: 300px;
+   
    -webkit-padding-start: 0px;
    float:left;
   
 }
 
-.analysis ul li
+.infographics ul li
 {
 
 	position: relative;
@@ -327,7 +295,7 @@ header .navbar ul li a {
 }
 
 
-.analysis ul li:before
+.infographics ul li:before
 {
 	position: absolute;
 	width: 10px;
@@ -340,14 +308,18 @@ header .navbar ul li a {
 
 }
 
-.analysis ul li p
+.infographics ul li:last-child
+{
+
+}
+.infographics ul li p
 {
 	margin: 0px;
 	font-size: 15px;
 }
 
 
-.analysis h2
+.infographics h2
 {
 	margin: 0px;
 	padding-bottom: 30px;
@@ -355,61 +327,21 @@ header .navbar ul li a {
 }
 
 
-.data
-{
-	float: left;
-	margin: 50px 70px;
-}
 
-.data ul
-{
 
-	border-left: 2px solid #6e849c;
-    display: block;
-    padding-right: 0px;
-    width: 300px;
-   -webkit-padding-start: 0px;
-  
-}
-.data ul li
-{
-
-	position: relative;
-	left: -7px;
-	margin-bottom:40px;
-	font-size: 19px;
-	font-family: 'Lato';
-	padding-left: 25px;
-
-}
-.data ul li:before
-{
-	position: absolute;
-	width: 10px;
-	height:10px;
-	background-color:#6e849c;
-	border-radius: 500%;
-	content: "";
-	top: 0px;
-	left: 0px;
-
-}
-.data h2
-{
-	margin: 0px;
-	padding-bottom: 30px;
-}
 
 .visualization
 {
-	float: right;
+	float:left;
 	text-align: center;
-	margin-right: 60px;
+	margin: 50px 0px 50px 70px;
 }
-.visualization ul 
+
+
+.visualization p
 {
-	margin: 0px;
-	padding: 0px;
+	font-size: 15px;
+
 
 }
 .visualization li
