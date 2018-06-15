@@ -254,8 +254,18 @@ header .navbar ul li a {
  	background-size: cover;
     display: block; 
     height: 1093px;
-    
-    
+   
+}
+.our_approach
+{
+	color: #151515;
+	text-align: center;
+	padding-top: 50px;
+    font-size: 35px;
+	font-weight: bold;
+	font-family: 'Lato';
+	margin: 0px;
+	
 }
 .analysis
 {
@@ -268,7 +278,7 @@ header .navbar ul li a {
 .infographics
 {
 	float: left; 
-	margin: 50px 0px 50px 70px;
+	margin: 80px 0px 0px 70px;
 }
 .infographics ul
 {
@@ -308,15 +318,8 @@ header .navbar ul li a {
 
 }
 
-.infographics ul li:last-child
-{
 
-}
-.infographics ul li p
-{
-	margin: 0px;
-	font-size: 15px;
-}
+
 
 
 .infographics h2
@@ -334,26 +337,23 @@ header .navbar ul li a {
 {
 	float:left;
 	text-align: center;
-	margin: 50px 0px 50px 70px;
+	margin: 60px 0px 0px 70px;
 }
 
 
 .visualization p
 {
-	font-size: 15px;
+	font-size: 20px;
+	font-family: 'Lato';
 
 
 }
-.visualization li
+.visualization_img
 {
-	font-size: 19px;
+ 	background-image: url(../images/visualization.png);
+ 	height: 320px;
 }
 
-.visualization h2
-{ 
-	margin: 0px;
-	padding-bottom: 30px;
-}
 
 .container-fluid
 {
@@ -366,25 +366,87 @@ header .navbar ul li a {
 	
 	text-align: center;
 	-webkit-padding-start: 0px;
-	 margin: 35px 50px;
+	margin: 0px;
+	padding: 0px;
+	
+	
 
 }
 
 .container-fluid ul li
 {
-	float: left;
-	width: 200px;
-	text-align: center;
+	display: inline-block;
+	width: 15%;
+	margin: 30px 0px;
+	height: 81px;
+
+	
 }
-
-
 
 .container-fluid ul li p
 {
 	
 	color: #ffff;
 	font-size: 18px;
-	width: 170px;
-	margin: 0px;
+	margin-top: 15px;
+	vertical-align:middle;
 }
 
+.container-fluid img
+{
+	vertical-align:middle;
+}
+/*footer*/
+.footer_contact
+{
+	width: 50%;
+	background-color: #ffff;
+	overflow: hidden;
+	float: left;
+}
+
+.contact_us
+{
+	color: #4074a2;
+	text-align:left;
+	padding: 50px 0px 30px 0px ;
+    font-size: 35px;
+	font-weight: bold;
+	font-family: 'Lato';
+	margin: 0px;
+	
+}
+
+.contact
+{
+	width: 80%;
+	float: right;
+}
+
+.footer_contact2
+{
+	width: 50%;
+	background-color: #60c0ff;
+	height: 700px;
+	float: right;
+}
+
+input[type=text], select, textarea
+{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 30px;
+}
+
+
+input[type=submit] {
+    background-color: #005e9c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: right;
+}
