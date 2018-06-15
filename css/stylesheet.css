@@ -401,7 +401,7 @@ header .navbar ul li a {
 {
 	width: 50%;
 	background-color: #ffff;
-	overflow: hidden;
+	height: 700px;
 	float: left;
 }
 
@@ -421,6 +421,7 @@ header .navbar ul li a {
 {
 	width: 80%;
 	float: right;
+	
 }
 
 .footer_contact2
